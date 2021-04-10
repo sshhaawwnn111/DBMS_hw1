@@ -8,7 +8,7 @@ create table search_trend(
 );
 
 load data local infile './search_trend.csv'
-into table mask
+into table search_trend
 fields terminated by ','
 enclosed by '"'
 lines terminated by '\n'

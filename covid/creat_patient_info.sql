@@ -9,7 +9,7 @@ create table patient_info(
 );
 
 load data local infile './patient_info.csv'
-into table mask
+into table patient_info
 fields terminated by ','
 enclosed by '"'
 lines terminated by '\n'

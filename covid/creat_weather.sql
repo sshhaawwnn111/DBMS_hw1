@@ -9,7 +9,7 @@ create table weather(
 );
 
 load data local infile './weather.csv'
-into table mask
+into table weather
 fields terminated by ','
 enclosed by '"'
 lines terminated by '\n'

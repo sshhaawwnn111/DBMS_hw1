@@ -7,7 +7,7 @@ create table time_gender(
 );
 
 load data local infile './time_gender.csv'
-into table mask
+into table time_gender
 fields terminated by ','
 enclosed by '"'
 lines terminated by '\n'

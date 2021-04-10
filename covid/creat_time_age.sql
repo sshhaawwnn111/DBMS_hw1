@@ -7,7 +7,7 @@ create table time_age(
 );
 
 load data local infile './time_age.csv'
-into table mask
+into table time_age
 fields terminated by ','
 enclosed by '"'
 lines terminated by '\n'

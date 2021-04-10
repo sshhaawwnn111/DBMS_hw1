@@ -13,7 +13,7 @@ create table region(
 );
 
 load data local infile './region.csv'
-into table mask
+into table region
 fields terminated by ','
 enclosed by '"'
 lines terminated by '\n'

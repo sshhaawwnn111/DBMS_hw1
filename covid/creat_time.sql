@@ -9,7 +9,7 @@ create table time(
 );
 
 load data local infile './time.csv'
-into table mask
+into table time
 fields terminated by ','
 enclosed by '"'
 lines terminated by '\n'

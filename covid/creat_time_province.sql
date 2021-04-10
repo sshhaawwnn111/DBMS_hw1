@@ -8,7 +8,7 @@ create table time_province(
 );
 
 load data local infile './time_province.csv'
-into table mask
+into table time_province
 fields terminated by ','
 enclosed by '"'
 lines terminated by '\n'
