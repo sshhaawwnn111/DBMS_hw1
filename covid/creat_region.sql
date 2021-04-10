@@ -3,7 +3,6 @@ create table region(
     province varchar(20),
     city varchar(20),
     elementary_school_count int,
-    age int,
     kindergarten_count int,
     university_count int,
     elderly_population_ratio float,
