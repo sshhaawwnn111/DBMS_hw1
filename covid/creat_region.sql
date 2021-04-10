@@ -9,7 +9,7 @@ create table region(
     elderly_population_ratio float,
     elderly_alone_ratio float,
     nursing_home_count int,
-    primary key (region)
+    primary key (code)
 );
 
 load data local infile './region.csv'
