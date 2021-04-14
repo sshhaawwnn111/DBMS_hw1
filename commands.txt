@@ -1,0 +1,3 @@
+sudo mysql -u root  < file_name
+sudo mysql -u root
+ssh tree@192.168.56.1
